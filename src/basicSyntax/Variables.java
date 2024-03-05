@@ -9,7 +9,7 @@ public class Variables {
 		// 共通化できる文字列
 		String common1 = "私の好きな";
 		String common2 = "です。";
-		// 整数+文字列
+		// 整数(小数)+文字列
 		String console1 = common1 + "整数は" + num1 + common2;
 		String console2 = common1 + "少数は" + num2 + common2;
 		
