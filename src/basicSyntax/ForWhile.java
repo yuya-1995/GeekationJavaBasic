@@ -10,14 +10,14 @@ public class ForWhile {
 		
 		for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
-            	// FizzBuzz;i
-                System.out.println("FizzBuzz:" + i);
+            	// FizzBuzz
+                System.out.println("FizzBuzz");
             } else if (i % 3 == 0) {
-            	// Fizz:i
-                System.out.println("Fizz:" + i);
+            	// Fizz
+                System.out.println("Fizz");
             } else if (i % 5 == 0) {
-            	// Buzz:i
-                System.out.println("Buzz:" + i);
+            	// Buzz
+                System.out.println("Buzz");
             } else {
             	// i
                 System.out.println(i);

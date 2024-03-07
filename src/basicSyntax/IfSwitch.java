@@ -30,22 +30,22 @@ public class IfSwitch {
 		String pref = "東京";
 		
 		switch (pref) {
-		case "北海":
-			// 北海道
-			System.out.println("北海道");
-			break;
-		case "東京":
-			// 東京都
-			System.out.println("東京都");
-			break;
-		case "京都":
-			// 京都府
-			System.out.println("京都府");
-			break;
-		default:
-			// 当たりません。
-			System.out.println("当たりません。");
-			break;
+			case "北海":
+				// 北海道
+				System.out.println("北海道");
+				break;
+			case "東京":
+				// 東京都
+				System.out.println("東京都");
+				break;
+			case "京都":
+				// 京都府
+				System.out.println("京都府");
+				break;
+			default:
+				// 当たりません。
+				System.out.println("当たりません。");
+				break;
 		}
 			
 	}
